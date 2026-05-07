@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "generate-pwa-assets": "pwa-assets-generator --config pwa-assets.config.js",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -20,6 +21,7 @@
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",
+    "@vite-pwa/assets-generator": "^0.2.4",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.55.0",
     "postcss": "^8.4.32",
